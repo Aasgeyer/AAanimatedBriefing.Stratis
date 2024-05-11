@@ -1,0 +1,13 @@
+class CfgRadio
+{
+	sounds[] = {};
+	class animatedBriefing
+	{
+		// display name
+		name	= "";
+		// filename, volume, pitch
+		sound[]	= { "sound\animatedBriefing.ogg", db-10, 1.0 };
+		// radio caption
+		title	= "";
+	};
+};
